@@ -1,0 +1,17 @@
+.contacts {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 15%;
+  color: white;
+  margin-bottom: 50px;
+
+  .contacts__info {
+    .contacts__info-icon {
+      margin-right: 10px;
+    }
+  }
+}
