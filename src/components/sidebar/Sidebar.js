@@ -1,14 +1,21 @@
 import React from 'react';
-import Contacts from './Contacts';
-import Education from './Education';
+import Contact from './Contact';
+// import Education from './Education';
+import PersonalTitle from './PersonalTitle';
+import SidebarContainer from './SidebarContainer';
 import Skills from './Skills';
 
 const Sidebar = () => {
   return (
     <div className='sidebar'>
-      <Contacts />
-      <Skills />
-      <Education />
+      <PersonalTitle />
+      <SidebarContainer>
+        <Contact />
+      </SidebarContainer>
+      <SidebarContainer>
+        <Skills />
+      </SidebarContainer>
+      {/* <Education /> */}
     </div>
   );
 };

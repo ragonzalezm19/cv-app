@@ -1,9 +1,15 @@
-@import './base/base';
 @import './base/settings';
+@import './base/base';
 @import './base/utils';
 
 // Components
 @import './components/sidebar/sidebar';
+@import './components/sidebar/sidebar-container';
+@import './components/sidebar/personalTitle';
 @import './components/sidebar/contacts';
 @import './components/sidebar/skills';
 @import './components/sidebar/education';
+
+@import './components/main/main';
+@import './components/main/experience-list';
+@import './components/main/experience';

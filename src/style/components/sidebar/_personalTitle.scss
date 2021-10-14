@@ -1,0 +1,17 @@
+.personal-title {
+  padding-left: 20px;
+  padding-right: 25px;
+}
+
+.personal-title__name {
+  color: $sidebarFont;
+  font-size: 2.3rem;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.personal-title__title {
+  color: $sidebarFont;
+  font-size: 1.3rem;
+  font-family: 'Ubuntu Light';
+}
