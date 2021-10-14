@@ -1,17 +1,17 @@
-.contacts {
-  padding-top: 20px;
+.contact {
   display: flex;
   flex-direction: column;
   padding-bottom: 10px;
   justify-content: space-between;
   align-items: flex-start;
   height: 15%;
-  color: white;
-  margin-bottom: 50px;
+  color: $sidebarFont;
+}
 
-  .contacts__info {
-    .contacts__info-icon {
-      margin-right: 10px;
-    }
-  }
+.contact__info {
+  margin-bottom: 10px;
+}
+
+.contact__info-icon {
+  margin-right: 10px;
 }
